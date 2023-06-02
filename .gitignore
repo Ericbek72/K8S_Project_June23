@@ -1,0 +1,7 @@
+terraform
+main.tf
+**/.terraform/*
+.terraform.lock.hcl
+yaml
+*.tfstate
+*.tfstate.*
