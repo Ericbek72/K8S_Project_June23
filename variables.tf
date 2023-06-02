@@ -1,11 +1,11 @@
-variable "project_id" {
-    type = string
-}
+# variable "project_id" {
+#     type = string
+# }
 
-variable "cpu_alert_pol" {
-    type = string
-}
+# variable "project_name" {
+#     type = string
+# }
 
-variable "cpu_alert_pol_cond" {
-    type = string
-}
+# variable "sa_name" {
+#     type = string
+# }
