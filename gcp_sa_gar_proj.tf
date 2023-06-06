@@ -22,3 +22,9 @@ resource "google_artifact_registry_repository" "my-project-repo" {
   repository_id = "proj-store-app-repo"
   format        = "DOCKER"
 }
+
+resource "google_artifact_registry_repository" "helm_charts" {
+  repository_id = "helm-charts-repo"
+  format        = "DOCKER"
+  location      = "us-central1"
+}
