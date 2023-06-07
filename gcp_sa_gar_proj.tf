@@ -30,6 +30,7 @@ resource "google_artifact_registry_repository" "my-project-repo" {
 }
 
 resource "google_artifact_registry_repository" "helm_charts" {
+  project = "fine-effect-382702"
   repository_id = "helm-charts-repo"
   format        = "DOCKER"
   location      = "us-central1"
